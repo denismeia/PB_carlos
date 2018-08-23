@@ -1,0 +1,14 @@
+#GPP
+
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'AMJJ'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/AMJJ/slope.tif s_AMJJ.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'DJFM'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/DJFM/slope.tif s_DJFM.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'FMAM'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/FMAM/slope.tif s_FMAM.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'JFMA'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/JFMA/slope.tif s_JFMA.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'NDJF'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/NDJF/slope.tif s_NDJF.tif;
+
+
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'AMJJ'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/AMJJ/detcoef.tif r_AMJJ.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'DJFM'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/DJFM/detcoef.tif r_DJFM.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'FMAM'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/FMAM/detcoef.tif r_FMAM.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'JFMA'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/JFMA/detcoef.tif r_JFMA.tif;
+gdalwarp -cutline /media/denis/seagate/SHAPES/Base_Brasil/Admin_regions/BRA_adm2_NE_wet.shp -cwhere "WET = 'NDJF'" -co COMPRESS=DEFLATE -co PREDICTOR=1 -co ZLEVEL=9 -dstnodata -9999 /media/denis/seagate/ESI_2017/brasil_04gf/monthly_mean/NDJF/detcoef.tif r_NDJF.tif;ls;done

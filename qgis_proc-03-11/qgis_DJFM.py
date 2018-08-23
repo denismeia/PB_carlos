@@ -1,0 +1,43 @@
+#DJFM
+#GPP
+#False,0 -> average
+#False,10 -> sum
+#False,13 -> 03-11slope
+
+import processing
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2002-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2003-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2003-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2003-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2003.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2003-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2004-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2004-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2004-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2004.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2004-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2005-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2005-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2005-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2005.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2005-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2006-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2006-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2006-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2006.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2006-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2007-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2007-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2007-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2007.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2007-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2008-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2008-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2008-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2008.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2008-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2009-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2009-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2009-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2009.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2009-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2010-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2010-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2010-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2010.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2010-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2011-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2011-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2011-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2011.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2011-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2012-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2012-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2012-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2012.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2012-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2013-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2013-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2013-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2013.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2013-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2014-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2014-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2014-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2014.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2014-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2015-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2015-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2015-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2015.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2015-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2016-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2016-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2016-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2016.tif")
+
+# processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2016-12.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2017-01.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2017-02.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/2017-03.tif",False,0,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/2017.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2003.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2004.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2005.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2006.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2007.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2008.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2009.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2010.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2011.tif",False,13,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/03-11slope.tif")
+
+processing.runalg("grass7:r.series","/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2003.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2004.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2005.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2006.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2007.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2008.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2009.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2010.tif;/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/AMJJ/2011.tif",False,15,"-10000000000,10000000000","-48.7551,-32.3931,-18.3515,-1.0445",0,"/media/denis/seagate/PB/MODIS/myd17a2h/gpp/monthly_mean/DJFM/03-11detcoef.tif")
+
+
